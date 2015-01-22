@@ -1,0 +1,100 @@
+%********************************
+% Longyou Cai
+% General Resumé
+%
+% http://github.com/lycai/resume
+% Last edited 17/01/2015
+% Best compiled on MiKTeX
+%********************************
+
+% Made using the excellent LaTeX resume package moderncv
+\documentclass[11pt,sans]{moderncv}
+
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+% Scaling margins, etc with geometry
+\usepackage[scale=0.75]{geometry}
+% tabto to allow for itemize tabbing
+\usepackage{tabto}
+
+\addtolength{\textheight}{1.5cm}
+\addtolength{\voffset}{-0.5cm}
+
+\name{LONGYOU}{CAI}
+\address{62 Heather Rd.}{M1S2E3 Toronto}{Canada}
+\phone[mobile]{(647)~235~9919}
+\email{cai.longyou@gmail.com}
+\homepage{hicai.ca}
+%\social[github]{lycai}
+
+\extrainfo{2B Honours Bachelor of Computer Science, University of Waterloo (20534201)}
+
+\begin{document}
+
+\makecvtitle
+
+\vspace{-7mm}
+
+\section{Skills and Certifications}
+
+\cvlistitem{Programming: \tabto{2.5cm} C++, R, Ruby, advanced algorithms and data structures}
+
+\cvlistitem{Web stack: \tabto{2.5cm} PHP, HTML5, CSS, JavaScript, SQL}
+
+\cvlistitem{Data science: \tabto{2.5cm} Regression models, decision trees/forests, boosting, SVMs}
+
+\section{Experience}
+
+\cventry{2014}{Web Designer}{Connexions.org}{Toronto}{}{}
+
+\begin{itemize}
+	\item Created responsive homepage prototype
+	\item Built PHP templates and classes
+	\begin{itemize}
+		\item Layout templates
+		\item Login and user account classes
+	\end{itemize}
+\end{itemize}
+
+\vspace{2mm}
+
+\cventry{2010--2013}{Assistant Instructor}{YPlanet Digital Learning Services}{Toronto}{}{}
+
+\begin{itemize}
+\item Aided in the instruction of new customers
+\item Lead the digital leaders program
+\begin{itemize}
+	\item Taught local youth computer literacy skills and application use
+	\item Procured and set up new hardware for the program
+\end{itemize}
+\item Maintained computers and local network, and solved technical issues of customers
+\end{itemize}
+
+\section{Education}
+
+\cventry{2013--present}{Candidate for Bachelor of Honours Computer Science}{University of Waterloo}{Waterloo}{}{}
+
+\cventry{2009--2013}{Ontario Secondary School Diploma (OSSD)}{Woburn Collegiate Institute}{Toronto}{Ontario Scholar}{}
+
+\section{Relevant Assignments}
+
+\cvitem{Weight Lifting Exercise Prediction}{Used R to analyse and generate a classification model using machine learning.}
+
+\cvitem{Particle Engine}{Programmed a modular engine in Javascript to simulate particle systems.}
+
+\section{Languages}
+
+\cvitem{Mandarin Chinese}{Native}
+
+\cvitemwithcomment{English}{Fluent}{ELPE Proficiency in English, University of Waterloo, 2013}
+
+\cvitemwithcomment{French}{Advanced}{Level 5 (highest) French, Universit\'{e} de Moncton, 2012}
+
+\section{Interests}
+
+\cvitem{Waterloo Aerial Robotics}{Image recognition / Post-processing team}
+
+\cvitem{Piano}{Certified Royal Conservatory of Music (RCM) Grade 10}
+
+\end{document}
